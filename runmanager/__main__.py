@@ -26,7 +26,7 @@ desktop_app.set_process_appid('runmanager')
 
 # Splash screen
 from labscript_utils.splash import Splash
-splash = Splash(os.path.join(os.path.dirname(__file__), 'runmanager.svg'))
+splash = Splash(os.path.join(os.path.dirname(__file__), 'runmanager.ico'))
 splash.show()
 
 splash.update_text('importing standard library modules')
